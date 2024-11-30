@@ -24,12 +24,13 @@
 <h5>tzdata==2024.2</h5>
 <h5>Библиотеки добавлены в проекте в requirements.txt</h5>
 
-<h4>Чтобы запустить блог , необходимо:</h4>
-
-<h5>Создать виртуальную среду. Для пользователей Linux и macOS нужно выполнить команду python3 -m venv env. Для Windows —  python -m venv env
-Активировать виртуальную среду. Для Linux и macOS — команда source env/bin/activate. Для Windows — .\env\Scripts\activate
-Клонировать репозиторий GitHub. Скопировать URL-адрес репозитория и выполнить команду git clone
-Изменить каталог на клонированный репозиторий cd my_site
-Нужно установить зависимости из файла requirements.txt с помощью команды pip install -r requirements.txt
-Запустить сервер Django. Для этого выполнить команду python3 manage.py runserver.
-Проверить, что приложение работает. Для этого нужно открыть веб-браузер и ввести http://127.0.0.1:8000</h5>
+<p class='text-muted'>Чтобы запустить блог на компьютере, необходимо:</p>
+<ul class="list-group">
+  <li class="list-group-item list-group-item-light">Создать виртуальную среду. Для пользователей Linux и macOS нужно выполнить команду python3 -m venv env. Для Windows —  python -m venv env</li>
+  <li class="list-group-item list-group-item-light">Активировать виртуальную среду. Для Linux и macOS — команда source env/bin/activate. Для Windows — .\env\Scripts\activate</li>
+  <li class="list-group-item list-group-item-light">Клонировать репозиторий GitHub. Скопировать URL-адрес репозитория и выполнить команду git clone</li>
+  <li class="list-group-item list-group-item-light">Изменить каталог на клонированный репозиторий cd my_site</li>
+  <li class="list-group-item list-group-item-light">Нужно установить зависимости из файла requirements.txt с помощью команды pip install -r requirements.tx</li>
+  <li class="list-group-item list-group-item-light">Запустить сервер Django. Для этого выполнить команду python3 manage.py runserver.</li>
+  <li class="list-group-item list-group-item-light">Проверить, что приложение работает. Для этого нужно открыть веб-браузер и ввести http://127.0.0.1:8000</li>
+</ul>
