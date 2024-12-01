@@ -34,3 +34,5 @@
   <li class="list-group-item list-group-item-light">Запустить сервер Django. Для этого выполнить команду python3 manage.py runserver.</li>
   <li class="list-group-item list-group-item-light">Проверить, что приложение работает. Для этого нужно открыть веб-браузер и ввести http://127.0.0.1:8000</li>
 </ul>
+
+<img src="https://github.com/Lexa622/Diplom/blob/master/Снимок%20экрана%20блог.png">
