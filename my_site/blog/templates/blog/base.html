@@ -1,12 +1,9 @@
-{% load static %}
 <!DOCTYPE html>
+{% load static %}
 <html lang="ru">
 <head>
     <!-- Обязательные мета-теги -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Блог о Python и Django. Узнайте последние новости и события.">
-    <meta name="keywords" content="Python, Django, блог, новости, события">
 
     <!-- Bootstrap, иконки и шрифт -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -14,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="{% static 'blog/main.css' %}">
 
     {% if title %}
-        <title>Блог {{ title }}</title>
+        <title>{{ title }}</title>
     {% else %}
         <title>Python Django блог</title>
     {% endif %}
@@ -69,7 +66,7 @@
 
     <!-- Футер закреплен внизу, независимо от количества постов на странице -->
     <footer class="text-center bg-dark text-light">
-        <p><a href="{% url 'blog-home' %}" class="text-light">© Python Django блог {{ current_year }}</a></p>
+        <p><a href="{% url 'blog-home' %}" class="text-light">© Python Django блог {% now "Y" %}</a></p>
     </footer>
 
     <!-- Scripts (if needed) -->
